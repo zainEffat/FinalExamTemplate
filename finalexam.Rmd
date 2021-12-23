@@ -1,0 +1,92 @@
+---
+title: "Final_Exam"
+subtitle: "CS 3072, Fall 2021, Effat University"
+author: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Packages
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse) 
+library(broom)
+library(caret)
+library(sf)
+``` 
+
+# Data
+
+```{r read-in-data, message = FALSE}
+crimes <- read_csv("data/hate_crimes.csv")
+us_states <- st_read("data/States_shapefile.shp", quiet = TRUE)
+midwest_data <- midwest
+
+```
+# PART 1
+
+## Task 1
+
+```{r}
+
+
+```
+
+##Task 2
+
+```{r}
+
+
+
+```
+
+##Task 3
+
+```{r}
+
+
+```
+
+
+
+
+
+# PART 2
+
+## Task 1
+
+```{r}
+
+
+```
+
+##Task 2
+
+```{r}
+
+
+
+```
+
+##Task 3
+
+```{r}
+
+
+```
+
+##Task 4
+
+```{r}
+
+
+
+
+
+```
+
+
